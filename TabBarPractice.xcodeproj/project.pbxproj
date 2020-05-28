@@ -14,6 +14,11 @@
 		D435365123599E0A0043CECB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D435364F23599E0A0043CECB /* LaunchScreen.storyboard */; };
 		D435365C23599E0A0043CECB /* TabBarPracticeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D435365B23599E0A0043CECB /* TabBarPracticeTests.swift */; };
 		D435366723599E0A0043CECB /* TabBarPracticeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D435366623599E0A0043CECB /* TabBarPracticeUITests.swift */; };
+		D435367523599E5E0043CECB /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D435367423599E5E0043CECB /* FirstViewController.swift */; };
+		D435367723599E6A0043CECB /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D435367623599E6A0043CECB /* SecondViewController.swift */; };
+		D435E62F2359B21C00D5B2BB /* DetailTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D435E62D2359B21C00D5B2BB /* DetailTableViewCell.swift */; };
+		D435E6302359B21C00D5B2BB /* DetailTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D435E62E2359B21C00D5B2BB /* DetailTableViewCell.xib */; };
+		D435E6322359B60700D5B2BB /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D435E6312359B60700D5B2BB /* UserModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +52,11 @@
 		D435366223599E0A0043CECB /* TabBarPracticeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TabBarPracticeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D435366623599E0A0043CECB /* TabBarPracticeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarPracticeUITests.swift; sourceTree = "<group>"; };
 		D435366823599E0A0043CECB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D435367423599E5E0043CECB /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		D435367623599E6A0043CECB /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		D435E62D2359B21C00D5B2BB /* DetailTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailTableViewCell.swift; sourceTree = "<group>"; };
+		D435E62E2359B21C00D5B2BB /* DetailTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DetailTableViewCell.xib; sourceTree = "<group>"; };
+		D435E6312359B60700D5B2BB /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +113,11 @@
 				D435364D23599E0A0043CECB /* Assets.xcassets */,
 				D435364F23599E0A0043CECB /* LaunchScreen.storyboard */,
 				D435365223599E0A0043CECB /* Info.plist */,
+				D435367423599E5E0043CECB /* FirstViewController.swift */,
+				D435367623599E6A0043CECB /* SecondViewController.swift */,
+				D435E62D2359B21C00D5B2BB /* DetailTableViewCell.swift */,
+				D435E62E2359B21C00D5B2BB /* DetailTableViewCell.xib */,
+				D435E6312359B60700D5B2BB /* UserModel.swift */,
 			);
 			path = TabBarPractice;
 			sourceTree = "<group>";
@@ -231,6 +246,7 @@
 			files = (
 				D435365123599E0A0043CECB /* LaunchScreen.storyboard in Resources */,
 				D435364E23599E0A0043CECB /* Assets.xcassets in Resources */,
+				D435E6302359B21C00D5B2BB /* DetailTableViewCell.xib in Resources */,
 				D435364C23599E080043CECB /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -256,7 +272,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D435367723599E6A0043CECB /* SecondViewController.swift in Sources */,
+				D435367523599E5E0043CECB /* FirstViewController.swift in Sources */,
 				D435364923599E080043CECB /* ViewController.swift in Sources */,
+				D435E62F2359B21C00D5B2BB /* DetailTableViewCell.swift in Sources */,
+				D435E6322359B60700D5B2BB /* UserModel.swift in Sources */,
 				D435364723599E080043CECB /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
